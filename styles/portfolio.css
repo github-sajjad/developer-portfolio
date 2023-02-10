@@ -20,6 +20,13 @@
 }
 
 /* header and navigation style */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -29,7 +36,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -70,4 +77,53 @@ nav li {
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
+}
+
+/* about section styles */
+main {
+    max-width: 1140px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 230px;
+    padding: 130px 155px;
+}
+
+.about {
+    text-align: center;
+}
+
+.section-title {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+}
+
+.section-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.info-title {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.info-desxription {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-info-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
